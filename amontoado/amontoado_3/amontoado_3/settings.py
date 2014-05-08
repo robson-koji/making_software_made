@@ -46,7 +46,7 @@ STATIC_URL = '/static_files/making_software/'
 STATICFILES_DIRS = (
     '//home/making_software/projetos/making_software_made/amontoado//amontoado_3/static_files',
 )
-SECRET_KEY = 'n-0u4=$k5@l#ue=-7z24u$=y&^5quutaku+v0@t2bwj@b)qmqw'
+SECRET_KEY = 'uvg1$c^9ey*097s(^ylf)-ffil#q-j#o1=ng!wf%vlk3m_3i)h'
 ROOT_URLCONF = 'amontoado_3.urls'
 WSGI_APPLICATION = 'amontoado_3.wsgi.application'
 TEMPLATE_DIRS = (
