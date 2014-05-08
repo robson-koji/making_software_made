@@ -21,8 +21,8 @@ os.environ["DJANGO_SETTINGS_MODULE"] = "amontoado_3.settings"
 # file. This includes Django's development server, if the WSGI_APPLICATION
 # setting points here.
 from django.core.wsgi import get_wsgi_application
-sys.path.append('/home/making_software/projetos/amontoado_3/')
-sys.path.append('/home/making_software/projetos/')
+sys.path.append('/home/making_software/projetos/making_software_made/amontoado//amontoado_3/')
+sys.path.append('/home/making_software/projetos/making_software_made/amontoado//')
 application = get_wsgi_application()
 # Apply WSGI middleware here.
 # from helloworld.wsgi import HelloWorldApplication
