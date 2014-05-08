@@ -22,14 +22,6 @@ class projeto_3(BSCTModelMixin, Model_GetRelatedObject_Mixin, models.Model):
         return '%s' % ( self.titulo )
     titulo = models.CharField(max_length=100, verbose_name=u'Titulo', help_text=u'')
     descricao = models.TextField(max_length=5000, verbose_name=u'Descricao', help_text=u'')
-    # Precisa ficar abaixo da definicao do required, pq ele sobreescreve
-
-    def set_cloned_title(self, title):
-        self.projeto_xyz = title
-
-    def __unicode__( self ):
-        return '%s' % ( self.projeto_xyz )
-    projeto_xyz = models.BooleanField(default=False , verbose_name=u'Projeto xyz?', help_text=u'')
     from itens_4.models import itens_4 # Se for User, nao precisa importar    
     itens_4_field = models.ManyToManyField(itens_4, verbose_name=u'Itens',)
 

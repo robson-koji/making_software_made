@@ -14,7 +14,7 @@ DB_HOST = '/var/run/postgresql/'
 LOGIN_REDIRECT_URL = '/amontoado_3/flat/fb_app/instrucoes/'
 LOGIN_URL = '/amontoado_3/accounts/login/'
 LOGOUT_URL = '/amontoado_3/accounts/logout/'
-MEDIA_ROOT = '/home/making_software/projetos/amontoado_3/media/'
+MEDIA_ROOT = '/home/making_software/projetos/making_software_made/amontoado//amontoado_3/media/'
 MEDIA_URL = '/amontoado_3/media/'
 URL_ROOT = '/amontoado_3/'
 ADMINS = ()
@@ -44,13 +44,13 @@ DATABASES = {
 }
 STATIC_URL = '/static_files/making_software/'
 STATICFILES_DIRS = (
-    '//home/making_software/projetos/amontoado_3/static_files',
+    '//home/making_software/projetos/making_software_made/amontoado//amontoado_3/static_files',
 )
-SECRET_KEY = '_%h=c^$2byls3mjb&opr9=u2qp)_&tbt9x_!rdkm$naquk!#dh'
+SECRET_KEY = 'n-0u4=$k5@l#ue=-7z24u$=y&^5quutaku+v0@t2bwj@b)qmqw'
 ROOT_URLCONF = 'amontoado_3.urls'
 WSGI_APPLICATION = 'amontoado_3.wsgi.application'
 TEMPLATE_DIRS = (
-    '/home/making_software/projetos/amontoado_3/templates/'
+    '/home/making_software/projetos/making_software_made/amontoado//amontoado_3/templates/'
 )
 INSTALLED_APPS = (
     'django.contrib.auth',

@@ -5,7 +5,7 @@ from projeto_3.models import projeto_3
 
 
 class projeto_3_Admin(admin.ModelAdmin):
-    list_display = ["id", "created_by", "titulo", "projeto_xyz", "itens_4_m2m_reverso", ]
+    list_display = ["id", "created_by", "titulo", "itens_4_m2m_reverso", ]
 
     def get_actions(self, request):
         actions = super(projeto_3_Admin, self).get_actions(request)
